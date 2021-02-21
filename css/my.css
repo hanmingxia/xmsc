@@ -1,0 +1,197 @@
+html{
+    font-size: 26.67vw;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../img/beijing.png) center 0 #f37d0f;
+    background-size: auto 100%;
+    padding: .16rem 0;
+}
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img{
+    margin: 0 0.08rem 0 .16rem;
+    width: .48rem;
+    height: .48rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid hsla(0,0%,100%,.4);
+    text-align: center;
+    display: flex;
+}
+.img img{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+.name{
+    color: #fff;
+    font-size: .12rem;
+    text-align: left;
+}
+.dingdan{
+    background-color: #fff;
+    height: .4rem;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    color: rgba(0,0,0,.54);
+    position: relative;
+    padding-right: .28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.12rem;
+}
+.cite{
+    padding-left: 0.16rem;
+    color: rgba(0,0,0,.87);
+}
+.citeall{
+    color: rgba(0,0,0,.87);
+}
+.citeall i{
+    font-size: 0.12rem !important;
+}
+.box{
+    padding: 0 .4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content:space-between;
+    position: relative;
+    padding: .2rem 0;
+    float: left;
+}
+.icon{
+    width: .24rem;
+    height: .24rem;
+    margin: 0 auto .08rem;
+    display: flex;
+}
+.icon i{
+    font-size: 0.24rem !important;
+    color: rgba(0,0,0,.87);
+}
+.tit{
+    font-size: 0.12rem;
+    color: rgba(0,0,0,.87);
+}
+.ui-line {
+    height: .1rem;
+    background: #f5f5f5;
+    overflow: hidden;
+    clear: both;
+}
+.items{
+    background: #fff;
+}
+.items li{
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.itemsa li:nth-child(1){
+    background:url(../img/index.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsa li:nth-child(2){
+    background:url(../img/index2.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsb li:nth-child(1){
+    background:url(../img/index3.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsb li:nth-child(2){
+    background:url(../img/index4.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsc li:nth-child(1){
+    background:url(../img/index5.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsc li:nth-child(2){
+    background:url(../img/index6.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.itemsd li{
+    background:url(../img/index7.png) no-repeat 0.12rem;
+    background-size: 0.24rem;
+}
+.member a{
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    padding-right: .28rem;
+    margin-left: 0.56rem;
+    height: 0.5rem;
+    font-size: .07rem;
+    font-style: normal;
+    color: rgba(0,0,0,.87);
+    flex: 1;
+}
+.wallet a{
+    padding-right: .28rem;
+    margin-left: 0.56rem;
+    height: 0.5rem;
+    font-size: .07rem;
+    font-style: normal;
+    color: rgba(0,0,0,.87);
+    flex: 1; 
+}
+.items i{
+    float: right;
+    line-height: 0.5rem;
+}
+.items span{
+    padding-right: .28rem;
+    height: 0.5rem;
+    font-size: .07rem;
+    font-style: normal;
+    color: rgba(0,0,0,.87);
+    line-height: 0.5rem;
+}
+/* foot */
+footer{
+    width: 100%;
+    height:0.52rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing:border-box;
+    font-size: 0.12rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:#999;
+    background-color: #fff;
+    box-shadow: 0 3px 14px 2px rgb(0 0 0 / 12%);
+}
+.foot{
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+.foot img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.foot:hover,.foot:focus{
+    color: rgb(237, 91, 0);
+}

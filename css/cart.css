@@ -1,0 +1,233 @@
+html{
+    font-size: 26.67vw;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    position: fixed;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+}
+.head{
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(102, 102, 102);
+}
+.headleft,.headright{
+    width: 0.5rem;
+    font-size: 0.26rem !important;
+    text-align: center;
+}
+.tit{
+    width: 2.71rem;
+    text-align: center;
+    font-size: 0.18rem;
+}
+/* 中间 */
+main{
+    width: 100%;
+    height: 5.6rem;
+    flex: 1;
+    overflow: auto;
+    position: absolute;
+    top:0.5rem;
+    background: #f5f5f5;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.licart{
+    padding: .12rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftli{
+    width: .3rem;
+    padding: 0 .1rem;
+    height: 0.9rem;
+    background: url(../img/check_press.png) 50% 50% no-repeat;
+    background-size: .2rem .2rem;
+}
+.cenli{
+    display: block;
+    position: relative;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: .1rem;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    overflow: hidden;
+    line-height: 0.9rem;
+}
+.cenli img{
+    width: 0.9rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+}
+.titli{
+    width: 2.3rem;
+    text-align: left;
+}
+.nameli{
+    font-size: .14rem;
+    line-height: .16rem;
+    color: #666;
+}
+.priceli{
+    padding: .03rem 0;
+    font-size: .12rem;
+    color: #999;
+    margin-bottom: .06rem;
+}
+.botli{
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botleft{
+    height: 0.3rem;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub{
+    width: .3rem;
+    height: .3rem;
+    position: relative;
+    background-color: #fafafa;
+    text-align: center;
+    border: none;
+}
+.count{
+    min-width: .3rem;
+    padding: 0 .06rem;
+    text-align: center;
+    font-size: .16rem;
+}
+.add{
+    width: .3rem;
+    height: .3rem;
+    position: relative;
+    background-color: #f4f4f4;
+    text-align: center;
+    border: none;
+}
+.botright{
+    height: 0.3rem;
+    float: right;
+    margin-right: .1rem;
+    line-height: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botright img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.ui-line {
+    height: .1rem;
+    background: #f5f5f5;
+    overflow: hidden;
+    clear: both;
+}
+.center{
+    font-size: .12rem;
+    color: #999;
+    border-top: 1px solid #f6f6f6;
+    padding: .1rem .15rem;
+    text-align: left;
+}
+.cnxh{
+    background: #fff;
+    text-align: left;
+    padding-bottom: .45rem;
+}
+.top{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+}
+.top img{
+    width: 100%;
+    height: 0.6rem;
+}
+.bottom{
+    width: 100%;
+}
+
+.lilist{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    float: left;
+    margin-right: 0.02rem;
+    margin-top: 0.02rem;
+}
+.lilist img{
+    width: 1.85rem;
+    height: 1.85rem;
+}
+.goods{
+    width: 1.85rem;
+    height: 0.58rem;
+    padding: 0.09rem .13rem .11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    box-sizing: border-box;
+}
+.goodsname{
+    font-size: .14rem;
+    overflow: hidden;
+}
+.goodsprice{
+    font-size: .16rem;
+    color: #ff6700;
+    margin-top: .05rem;
+    line-height: 1em;
+}
+
+/* foot */
+footer{
+    width: 100%;
+    height:0.52rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing:border-box;
+    font-size: 0.12rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:#999;
+    background-color: #fff;
+    box-shadow: 0 3px 14px 2px rgb(0 0 0 / 12%);
+}
+.foot{
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+.foot img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.foot:hover,.foot:focus{
+    color: rgb(237, 91, 0);
+}
